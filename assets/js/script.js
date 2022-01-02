@@ -1,7 +1,7 @@
 // Montagem da url do metodo fetch
-const timeStamp = "1639672395";
-const apiKey = "5936488582914a71fca407b5d168680c";
-const md5 = "af602868f1fd8b8b1f28114c5616c6fc";
+const timeStamp = "{YOUR_TIMESTAMP";
+const apiKey = "{YOUR_API_KEY}";
+const md5 = "{YOUR_MD5}";
 const maxCharacters = 1559;
 const offset = Math.floor(Math.random() * maxCharacters + 1);
 const BASE_URL = `https://gateway.marvel.com:443/v1/public/characters?limit=12&offset=${offset}&ts=${timeStamp}&apikey=${apiKey}&hash=${md5}`;
