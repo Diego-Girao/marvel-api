@@ -1,0 +1,47 @@
+body {
+    background-image: url("../img/background.gif");
+}
+
+#btn {
+   background-color: rgba(245, 245, 245, 0.6);
+   font-size: 25px;
+   font-family: monospace;
+   color: whitesmoke;
+   text-shadow: 2px 2px 5px rgb(172, 0, 0);
+   margin-left: 95vh;
+   margin-top: 20px;
+   border-color: black;
+   border-radius: 10px;
+}
+
+#btn:hover {
+    transition: 0.5s;
+    background-color: tomato;
+}
+
+#heroes {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+img {
+    width: 250px;
+    border-bottom-style: solid;
+    border-radius: 16px;
+}
+
+.character {
+    width: 250px;
+    margin: 20px;
+    border-style: solid;
+    border-radius: 16px;
+    background-color: rgba(245, 245, 245, 0.589);
+    text-align: center;
+    color: white;
+    text-decoration: black;
+    text-shadow: 2px 2px 5px rgb(172, 0, 0);
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+}
